@@ -1,0 +1,84 @@
+#leftbar{
+    background-color: var(--black);
+    height: 100vh;
+    width: calc(100vw/4);
+    position: absolute;
+}
+
+#mapid{
+    background-color: var(--dark-black);
+    height: 100vh;
+    width: calc(3*100vw/4);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#leftbarheader{
+    background-color: none;
+    height: calc(100vh/7);
+    width: 100%;
+}
+
+#leftbarbody{
+    background-color: var(--dark-gray);
+    height: calc(6*100vh/7);
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+
+#leftbarbutton1{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbutton1:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbutton1:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbutton1 text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+#leftbarbutton2{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbutton2:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbutton2:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbutton2 text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+
+/*# sourceMappingURL=/morestyles.1578afb8.css.map */
