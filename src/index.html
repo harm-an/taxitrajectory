@@ -16,22 +16,49 @@
   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
 <body>
   <div id="leftbar">
     <div id="leftbarheader">
-
+      <text id="typetext">MAP</text>
+      <div id="leftbarheaderbutton">
+        <text id="switchtext">Switch to Graphs</text>
+      </div>
     </div>
     <div id="leftbarbody">
+      <div id="leftbarbutton3">
+        <text>Plot Trajectories (RDP)</text>
+      </div>
       <div id="leftbarbutton1">
         <text>Plot Trajectories</text>
       </div>
       <div id="leftbarbutton2">
         <text>Cluster Trajectories</text>
       </div>
+      <div id="leftbarbuttonvw">
+        <text>Plot Trajectories (VW)</text>
+      </div>
+      <div id="leftbarbutton4">
+        <text>Trajectory Original</text>
+      </div>
+      <div id="leftbarbutton5">
+        <text>Trajectory Post-RDP</text>
+      </div>
+      <div id="leftbarbuttonvw_single">
+        <text>Trajectory Post-VW</text>
+      </div>
+      <div id="leftbarbutton6">
+        <text>Clear</text>
+      </div>
     </div>
   </div>
   <div id="mapid">
+  </div>
+  <div id="graphspace">
+    <div id="linechart">
+
+    </div>
   </div>
   <script src="polylines.js"></script>
   <script src="main.js"></script>

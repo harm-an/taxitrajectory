@@ -12,12 +12,57 @@
     position: absolute;
     right: 0px;
     top: 0px;
+    visibility: visible;
+}
+
+#graphspace{
+    background-color: var(--dark-black);
+    height: 100vh;
+    width: calc(3*100vw/4);
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 #leftbarheader{
     background-color: none;
     height: calc(100vh/7);
     width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: calc(100vh/7);
+}
+
+#leftbarheader #typetext {
+    color: white;
+    font-size: 90px;
+    cursor: default;
+}
+
+#leftbarheaderbutton{
+    position: absolute;
+    height: 40px;
+    width: 160px;
+    background-color: none;
+    left: calc(calc(calc(100vw/4) - 160px)/2);
+    top: 140px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+#leftbarheaderbutton:hover {
+    background-color: none;
+}
+
+#leftbarheaderbutton:hover #switchtext{
+    color: var(--blue);
+}
+
+#leftbarheaderbutton #switchtext {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 #leftbarbody{
@@ -78,4 +123,181 @@
     color: white;
     font-size: 40px;
     cursor: default;
+}
+
+#leftbarbutton3{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: 275px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbutton3:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbutton3:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbutton3 text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+#leftbarbuttonvw{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: calc(275px + 125px);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbuttonvw:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbuttonvw:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbuttonvw text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+#leftbarbutton4{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: calc(275px + 125px + 125px);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbutton4:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbutton4:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbutton4 text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+#leftbarbutton5{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: calc(275px + 125px + 125px + 125px) ;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbutton5:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbutton5:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbutton5 text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+#leftbarbuttonvw_single{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: calc(275px + 125px + 125px + 125px + 125px);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbuttonvw_single:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbuttonvw_single:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbuttonvw_single text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+#leftbarbutton6{
+    background-color: var(--blue);
+    height: 100px;
+    width: calc(100% - 50px);
+    left: 25px;
+    position: absolute;
+    top: calc(275px + 125px + 125px + 125px + 125px + 125px);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#leftbarbutton6:hover {
+    background-color: var(--tint);
+}
+
+#leftbarbutton6:hover text{
+    color: var(--dark-gray);
+}
+
+#leftbarbutton6 text {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+#graphspace{
+    background-color: var(--dark-black);
+    height: 100vh;
+    width: calc(3*100vw/4);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden
+}
+#linechart {
+    height: 500px;
+    width: 1500px;
+    background-color: var(--dark-gray);
+    position: absolute;
+    left: calc(calc(calc(3*100vw/4) - 1500px)/2);
+    top: calc(calc(calc(100vh) - 500px)/2);
+    
 }

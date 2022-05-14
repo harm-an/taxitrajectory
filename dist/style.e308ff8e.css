@@ -117,5 +117,21 @@ progress {
   display: none;
 }
 
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.domain {
+  stroke: #6495ed;
+}
+.tick {
+  stroke: #6495ed;
+}
+
+.tick .line{
+  fill: #6495ed;
+}
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
